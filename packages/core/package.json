@@ -24,7 +24,7 @@
     "url": "https://github.com/lijiaming123/pnpm-lerna/issues"
   },
   "dependencies": {
-    "@omni-scaffold/utils": "^0.0.1"
+    "@omni-scaffold/utils": "file:../utils"
   },
   "bin": {
     "omni-cli": "bin/index.js"
