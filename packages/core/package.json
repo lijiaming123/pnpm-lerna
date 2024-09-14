@@ -1,0 +1,29 @@
+{
+  "name": "@omni-scaffold/core",
+  "version": "1.0.0",
+  "description": "cli-core",
+  "author": "lijiaming <852930342@qq.com>",
+  "homepage": "https://github.com/lijiaming123/pnpm-lerna#readme",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lijiaming123/pnpm-lerna.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/core.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/lijiaming123/pnpm-lerna/issues"
+  },
+  "dependencies": {
+    "@omni-scaffold/utils": "^1.0.0"
+  }
+}

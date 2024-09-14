@@ -1,5 +1,5 @@
 packages:
-  -'packages/*'
-  -'apps/*'
+  - 'packages/*'
+  - 'apps/*'
 
   # 与lerna一起使用时，这个配置生效

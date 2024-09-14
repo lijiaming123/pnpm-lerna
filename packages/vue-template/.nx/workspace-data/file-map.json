@@ -1,0 +1,152 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.6.4",
+  "deps": {
+    "pinia": "^2.1.7",
+    "vue": "^3.4.29",
+    "vue-router": "^4.3.3",
+    "@rushstack/eslint-patch": "^1.8.0",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20.14.5",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vitejs/plugin-vue-jsx": "^4.0.0",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "@vue/eslint-config-typescript": "^13.0.0",
+    "@vue/tsconfig": "^0.5.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "npm-run-all2": "^6.2.0",
+    "prettier": "^3.2.5",
+    "typescript": "~5.4.0",
+    "vite": "^5.3.1",
+    "vite-plugin-vue-devtools": "^7.3.1",
+    "vue-tsc": "^2.0.21"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".eslintrc.cjs",
+        "hash": "4984959289447612077"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "13524112160863732742"
+      },
+      {
+        "file": ".prettierrc.json",
+        "hash": "15117339747707975127"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "13367730684061448252"
+      },
+      {
+        "file": "README.md",
+        "hash": "9445746723866248636"
+      },
+      {
+        "file": "env.d.ts",
+        "hash": "12946363841406869089"
+      },
+      {
+        "file": "index.html",
+        "hash": "17190326710390251276"
+      },
+      {
+        "file": "package.json",
+        "hash": "7188431235662984578"
+      },
+      {
+        "file": "public/favicon.ico",
+        "hash": "18282137866655320110"
+      },
+      {
+        "file": "src/App.vue",
+        "hash": "6141295294697614613"
+      },
+      {
+        "file": "src/assets/base.css",
+        "hash": "9321010002578688550"
+      },
+      {
+        "file": "src/assets/logo.svg",
+        "hash": "9991375553522856255"
+      },
+      {
+        "file": "src/assets/main.css",
+        "hash": "4965547358129182663"
+      },
+      {
+        "file": "src/components/HelloWorld.vue",
+        "hash": "9284148234732554807"
+      },
+      {
+        "file": "src/components/TheWelcome.vue",
+        "hash": "6668640087899901675"
+      },
+      {
+        "file": "src/components/WelcomeItem.vue",
+        "hash": "12329010385993129720"
+      },
+      {
+        "file": "src/components/icons/IconCommunity.vue",
+        "hash": "13677159598623475801"
+      },
+      {
+        "file": "src/components/icons/IconDocumentation.vue",
+        "hash": "18236295658572451706"
+      },
+      {
+        "file": "src/components/icons/IconEcosystem.vue",
+        "hash": "15980754303377160206"
+      },
+      {
+        "file": "src/components/icons/IconSupport.vue",
+        "hash": "15808468652280814992"
+      },
+      {
+        "file": "src/components/icons/IconTooling.vue",
+        "hash": "4609695526839923136"
+      },
+      {
+        "file": "src/main.ts",
+        "hash": "1265784010980792598"
+      },
+      {
+        "file": "src/router/index.ts",
+        "hash": "11217658424698460744"
+      },
+      {
+        "file": "src/stores/counter.ts",
+        "hash": "3590648083828400687"
+      },
+      {
+        "file": "src/views/AboutView.vue",
+        "hash": "322860496764757219"
+      },
+      {
+        "file": "src/views/HomeView.vue",
+        "hash": "3389815044832443565"
+      },
+      {
+        "file": "tsconfig.app.json",
+        "hash": "6391331620796574655"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "12321309453353138976"
+      },
+      {
+        "file": "tsconfig.node.json",
+        "hash": "172793107153560902"
+      },
+      {
+        "file": "vite.config.ts",
+        "hash": "7917964599734777127"
+      }
+    ]
+  }
+}
