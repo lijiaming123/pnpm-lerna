@@ -22,5 +22,10 @@
   },
   "bugs": {
     "url": "https://github.com/lijiaming123/pnpm-lerna/issues"
+  },
+  "gitHead": "2c1b180254c2942b93438c58f2144fb04dc0c856",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   }
 }

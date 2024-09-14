@@ -25,5 +25,12 @@
   },
   "dependencies": {
     "@omni-scaffold/utils": "^0.0.1"
+  },
+  "bin": {
+    "omni-scaffold": "bin/index.js"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   }
 }
