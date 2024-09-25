@@ -13,70 +13,43 @@ function inquirerPrompt(argv) {
             if (!/^[a-zA-Z]+$/.test(val)) {
               return "模板名称只能含有英文";
             }
-            if (!/^[A-Z]/.test(val)) {
-              return "模板名称首字母必须大写"
-            }
             return true;
           },
         },
         {
           type: 'list',
           name: 'type',
-          message: '模板类型',
-          choices: ['表单', '动态表单', '嵌套表单'],
+          message: '使用什么框架类型开发',
+          choices: ['vue2', 'vue3', 'react'],
           filter: function (value) {
             return {
-              '表单': "form",
-              '动态表单': "dynamicForm",
-              '嵌套表单': "nestedForm",
+              'vue2': "vue2",
+              'vue3': "vue3",
+              'react': "react",
             }[value];
           },
         },
         {
-          type: 'list',
-          message: '使用什么框架开发',
-          choices: ['react', 'vue'],
-          name: 'frame',
-        }
+            type: 'list',
+            name: 'UI',
+            message: '使用什么UI库',
+            choices: ['element-ui', 'ant-design', 'vant-ui'],
+            filter: function (value) {
+              return {
+                'element-ui': "element-ui",
+                'ant-design': "ant-design",
+                'vant-ui': "vant-ui",
+              }[value];
+            },
+          },
+          {
+            type: 'confirm',
+            name: 'isTs',
+            message: '是否使用TypeScript',
+            default: true
+          },
       ]).then(answers => {
-        const { frame } = answers;
-        if (frame === 'react') {
-          inquirer.prompt([
-            {
-              type: 'list',
-              message: '使用什么UI组件库开发',
-              choices: [
-                'Ant Design',
-              ],
-              name: 'library',
-            }
-          ]).then(answers1 => {
-            resolve({
-              ...answers,
-              ...answers1,
-            })
-          }).catch(error => {
-            reject(error)
-          })
-        }
-  
-        if (frame === 'vue') {
-          inquirer.prompt([
-            {
-              type: 'list',
-              message: '使用什么UI组件库开发',
-              choices: [ 'Element'],
-              name: 'library',
-            }
-          ]).then(answers2 => {
-            resolve({
-              ...answers,
-              ...answers2,
-            })
-          }).catch(error => {
-            reject(error)
-          })
-        }
+        console.log(answers)
       }).catch(error => {
         reject(error)
       })

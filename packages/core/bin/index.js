@@ -36,11 +36,11 @@ yargs.command(['create','c'], '新建模版', function(yargs){
         demandOption: true,
         describe: '模板名称',
         type: 'string'
-    }),
-    function (argv) {
-        inquirerPrompt(argv).then(answers =>{
-          console.log(answers)
-        })
-      }
-}).argv
+    })
+},
+function(argv) {
+    inquirerPrompt(argv).then(answers =>{
+      console.log(answers)
+    })
+  }).argv
 
