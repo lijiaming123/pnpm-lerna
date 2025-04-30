@@ -42,5 +42,5 @@ function(argv) {
     inquirerPrompt(argv).then(answers =>{
       console.log(answers)
     })
-  }).argv
+}).argv
 

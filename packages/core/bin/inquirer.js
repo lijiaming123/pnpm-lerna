@@ -1,5 +1,6 @@
 const inquirer = require('inquirer')
 
+// 命令行交互
 function inquirerPrompt(argv) {
     const { name } = argv;
     return new Promise((resolve, reject) => {
@@ -31,7 +32,7 @@ function inquirerPrompt(argv) {
         },
         {
             type: 'list',
-            name: 'UI',
+            name: 'ui',
             message: '使用什么UI库',
             choices: ['element-ui', 'ant-design', 'vant-ui'],
             filter: function (value) {
@@ -50,6 +51,38 @@ function inquirerPrompt(argv) {
           },
       ]).then(answers => {
         console.log(answers)
+        const {name, type, ui, isTs} = answers
+        switch (type) {
+          case 'vue2':
+            if (ui == 'element-ui') {
+              
+            } else if (ui == 'ant-design'){
+
+            } else if(ui == 'vant-ui') {
+              
+            }
+            break;
+          case 'vue3':
+            if (ui == 'element-ui') {
+              
+            } else if (ui == 'ant-design'){
+              
+            } else if(ui == 'vant-ui') {
+              
+            }
+            break;
+          case 'react':
+            if (ui == 'element-ui') {
+              
+            } else if (ui == 'ant-design'){
+              
+            } else if(ui == 'vant-ui') {
+              
+            }
+            break;
+          default:
+            break;
+        }
       }).catch(error => {
         reject(error)
       })

@@ -1,5 +1,5 @@
 packages:
   - 'packages/*'
   - 'apps/*'
-
+  # 意思是：把 packages/ apps/ 下面所有文件夹都当成子包（package）
   # 与lerna一起使用时，这个配置生效

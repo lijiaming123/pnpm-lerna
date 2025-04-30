@@ -1,5 +1,6 @@
 0 silly argv {
-0 silly argv   _: [ 'changed' ],
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
 0 silly argv   lernaVersion: '8.1.8',
 0 silly argv   '$0': 'C:\\Program Files\\nodejs\\node_modules\\lerna\\dist\\cli.js'
 0 silly argv }
